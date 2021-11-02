@@ -13,6 +13,7 @@ const ExpenseForm = (props) => {
   // });
 
   const titleChangeHandler = (event) => {
+//     operate on latest state snapshot
     setEnteredTitle(event.target.value);
     // setUserInput({
     //   ...userInput,
