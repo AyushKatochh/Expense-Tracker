@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
+// Dummy Expenses for saving static data
+
 const DUMMY_EXPENSES = [
   {
     id: 'e1',
