@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages 
+    {
+        stage('Delete old version Deployment') 
+        { 
+            steps {
+                bat 'docker-compose down'
+            }
+
+        }
+        stage("Build image and Deploy container") 
+        {
+            steps {
+                bat 'docker-compose up -d'
+            }
+
+        }
+    }
+
+}
