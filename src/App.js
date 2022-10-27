@@ -28,6 +28,7 @@ const DUMMY_EXPENSES = [
 ];
 
 const App = () => {
+  //state management
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addExpenseHandler = (expense) => {
