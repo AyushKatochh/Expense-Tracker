@@ -45,6 +45,7 @@ const App = () => {
   // );
 
   return (
+//    JSX
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
