@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
-// Dummy Expenses for saving static data
+// Dummy Expenses for saving static data update
 
 const DUMMY_EXPENSES = [
   {
